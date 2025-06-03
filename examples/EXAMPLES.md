@@ -10,4 +10,10 @@
 
 ![catdog depth map](catdog-zmap.bmp)  
 ![catdog pattern](catdog-pattern.bmp)  
-![catdog autostereogram](catdog-output.bmp)  
+![catdog autostereogram](catdog-output.bmp)
+
+## Example 3
+
+![bowser depth map](bowser-zmap.bmp)  
+![bowser pattern](bowser-pattern.bmp)  
+![bowser autostereogram](bowser-output.bmp)  
