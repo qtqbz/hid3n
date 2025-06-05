@@ -62,7 +62,7 @@ load_zmap(char *path)
     for (int32_t row = 0; row < zmap.height; row++) {
         for (int32_t column = 0; column < zmap.width; column++) {
             uint8_t *pixel = zmapImg.pixels + row * zmapImg.stride + column * zmapImg.depth;
-            zmap.z[row * zmap.width + column] = MIN((float)pixel[0] / 255.0f, 1.0f);
+            zmap.z[row * zmap.width + column] = 1.0f - MIN((float)pixel[0] / 255.0f, 1.0f);
         }
     }
 
